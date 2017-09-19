@@ -1,0 +1,16 @@
+
+.pc-copy-paste:before { content: '\e800'; } /* '' */
+.pc-geo-reference:before { content: '\e801'; } /* '' */
+.pc-layers:before { content: '\e802'; } /* '' */
+.pc-line-feature:before { content: '\e803'; } /* '' */
+.pc-measure-area:before { content: '\e804'; } /* '' */
+.pc-measure-line:before { content: '\e805'; } /* '' */
+.pc-merge-feature:before { content: '\e806'; } /* '' */
+.pc-parallel-line:before { content: '\e807'; } /* '' */
+.pc-perpendicular:before { content: '\e808'; } /* '' */
+.pc-polygon:before { content: '\e809'; } /* '' */
+.pc-seed-point:before { content: '\e80a'; } /* '' */
+.pc-select-all:before { content: '\e80b'; } /* '' */
+.pc-snap-tool:before { content: '\e80c'; } /* '' */
+.pc-split-feature:before { content: '\e80d'; } /* '' */
+.pc-triangulation:before { content: '\e80e'; } /* '' */

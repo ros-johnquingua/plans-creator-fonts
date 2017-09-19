@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'plans-creator';
+  src: url('../font/plans-creator.eot?78352601');
+  src: url('../font/plans-creator.eot?78352601#iefix') format('embedded-opentype'),
+       url('../font/plans-creator.woff2?78352601') format('woff2'),
+       url('../font/plans-creator.woff?78352601') format('woff'),
+       url('../font/plans-creator.ttf?78352601') format('truetype'),
+       url('../font/plans-creator.svg?78352601#plans-creator') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'plans-creator';
+    src: url('../font/plans-creator.svg?78352601#plans-creator') format('svg');
+  }
+}
+*/
+ 
+ [class^="pc-"]:before, [class*=" pc-"]:before {
+  font-family: "plans-creator";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.pc-copy-paste:before { content: '\e800'; } /* '' */
+.pc-geo-reference:before { content: '\e801'; } /* '' */
+.pc-layers:before { content: '\e802'; } /* '' */
+.pc-line-feature:before { content: '\e803'; } /* '' */
+.pc-measure-area:before { content: '\e804'; } /* '' */
+.pc-measure-line:before { content: '\e805'; } /* '' */
+.pc-merge-feature:before { content: '\e806'; } /* '' */
+.pc-parallel-line:before { content: '\e807'; } /* '' */
+.pc-perpendicular:before { content: '\e808'; } /* '' */
+.pc-polygon:before { content: '\e809'; } /* '' */
+.pc-seed-point:before { content: '\e80a'; } /* '' */
+.pc-select-all:before { content: '\e80b'; } /* '' */
+.pc-snap-tool:before { content: '\e80c'; } /* '' */
+.pc-split-feature:before { content: '\e80d'; } /* '' */
+.pc-triangulation:before { content: '\e80e'; } /* '' */
